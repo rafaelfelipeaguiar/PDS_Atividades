@@ -1,0 +1,15 @@
+﻿<Window x:Class="Atividade1e2.Tela2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Atividade1e2"
+        mc:Ignorable="d"
+        Title="Tela2" Height="430" Width="624">
+    <Grid Background="#FF442E96" Width="624" Height="430">
+        <Image HorizontalAlignment="Left" Height="434" VerticalAlignment="Top" Width="627" Source="imagens/BTS.jpg"/>
+        <Label Content=" Vamos descobrir quem é você na banda BTS" HorizontalAlignment="Left" Margin="110,119,0,0" VerticalAlignment="Top" Width="462" FontSize="18" FontFamily="Arial Black" OpacityMask="#FF5B1212" Background="#FFE5C2F4"/>
+        <Button Content="CONTINUA&#xD;&#xA;" HorizontalAlignment="Left" Margin="437,365,0,0" VerticalAlignment="Top" Height="43" Width="177" FontFamily="Arial Black" Background="#FFF6A2E8" Click="Button_Click_1"/>
+
+    </Grid>
+</Window>

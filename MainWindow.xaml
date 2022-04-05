@@ -1,0 +1,23 @@
+﻿<Window x:Class="Atividade1e2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Atividade1e2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="400">
+    <Grid Background="#FF452A90">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="71*"/>
+            <RowDefinition Height="146*"/>
+        </Grid.RowDefinitions>
+        <Image HorizontalAlignment="Center" Height="432"  VerticalAlignment="Top" Width="400" Source="imagens/login.jpg" Stretch="UniformToFill" Grid.RowSpan="2"/>
+        <Label Content="Login Usuário" HorizontalAlignment="Center" Margin="0,56,0,0" VerticalAlignment="Top" FontSize="36" FontFamily="Bookman Old Style" FontWeight="Bold" FontStyle="Italic" Foreground="#FF0835C3"/>
+        <TextBox x:Name="txtNome" HorizontalAlignment="Left" Margin="75,75,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="232" TextChanged="txtNome_TextChanged" Grid.Row="1"/>
+        <Button Content="Entrar" HorizontalAlignment="Left" Margin="151,198,0,0" VerticalAlignment="Top" Width="89" Click="Button_Click" Height="31" Background="#FF1634C1" Grid.Row="1"/>
+        <PasswordBox x:Name="psdSenha" HorizontalAlignment="Left" Margin="75,141,0,0" VerticalAlignment="Top" Width="232" Grid.Row="1"/>
+        <Label Content="Nome" HorizontalAlignment="Left" Margin="136,18,0,0" VerticalAlignment="Top" FontSize="36" FontFamily="Bookman Old Style" FontWeight="Bold" Foreground="#FF0835C3" Grid.Row="1"/>
+        <Label Content="Senha" HorizontalAlignment="Left" Margin="127,93,0,0" VerticalAlignment="Top" FontSize="36" FontFamily="Bookman Old Style" FontWeight="Bold" RenderTransformOrigin="1.031,0.656" Foreground="#FF0835C1" Grid.Row="1"/>
+
+    </Grid>
+</Window>

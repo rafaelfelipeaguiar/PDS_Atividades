@@ -1,0 +1,36 @@
+﻿<Window x:Class="Atividade1e2.Telas.Tela3"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Atividade1e2.Telas"
+        mc:Ignorable="d"
+        Title="Tela3" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="39*"/>
+            <RowDefinition Height="37*"/>
+            <RowDefinition Height="141*"/>
+        </Grid.RowDefinitions>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FFFF0053" Offset="0.989"/>
+                <GradientStop Color="#FFE5C2F4" Offset="0"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Image HorizontalAlignment="Left" Height="138" Margin="511,104,0,0" VerticalAlignment="Top" Width="130" Source="/Imagens/vbts.jpg" Stretch="UniformToFill" Grid.Row="2"/>
+        <Image HorizontalAlignment="Left" Height="138" Margin="645,106,0,0" VerticalAlignment="Top" Width="130" Source="/Imagens/jim.jpg" Stretch="UniformToFill" Grid.Row="2"/>
+        <Image HorizontalAlignment="Left" Height="149" Margin="373,100,0,0" VerticalAlignment="Top" Width="130" Source="/Imagens/sunga.jpg" Stretch="UniformToFill" Grid.Row="2"/>
+        <Image HorizontalAlignment="Left" Height="143" Margin="211,101,0,0" VerticalAlignment="Top" Width="150" Source="/Imagens/jungku.jpg" Stretch="UniformToFill" Grid.Row="2"/>
+        <Image HorizontalAlignment="Left" Height="142" Margin="32,102,0,0" VerticalAlignment="Top" Width="161" Source="/Imagens/bozojimi.jpg" Stretch="UniformToFill" Grid.Row="2"/>
+        <Label Content="Quiz BTS" HorizontalAlignment="Left"  VerticalAlignment="Top" Width="172" FontSize="48" FontFamily="Bernard MT Condensed" OpacityMask="#FF5B1212" Height="64" Margin="32,10,0,0"/>
+        <Label Content="Qual é seu idaol preferido?" HorizontalAlignment="Center" VerticalAlignment="Center" Width="284" FontSize="18" FontFamily="Arial Black" OpacityMask="#FF5B1212" Grid.Row="1" Height="31"/>
+        <Button x:Name="btku" Content="Jhon ku" HorizontalAlignment="Left" Margin="241,205,0,0" VerticalAlignment="Top" Height="40" Width="101" Background="#FFE5C2F4" FontFamily="Arial Narrow" FontSize="18" Click="Button_Click" Grid.Row="2"/>
+        <Button x:Name="btSunga" Content="Sunga" HorizontalAlignment="Left" Margin="387,205,0,0" VerticalAlignment="Top" Height="40" Width="102" Background="#FFE5C2F4" FontFamily="Arial Narrow" FontSize="18" Click="btSunga_Click" Grid.Row="2"/>
+        <Button x:Name="btv" Content="V?" HorizontalAlignment="Left" Margin="527,205,0,0" VerticalAlignment="Top" Height="40" Width="113" Background="#FFE5C2F4" FontFamily="Arial Narrow" FontSize="18" Click="btv_Click" Grid.Row="2"/>
+        <Button x:Name="btJin" Content="Jin o virtuoso " HorizontalAlignment="Left" Margin="661,198,0,0" VerticalAlignment="Top" Height="40" Width="101" Background="#FFE5C2F4" FontFamily="Arial Narrow" FontSize="18" Click="btJin_Click" Grid.Row="2"/>
+        <Button x:Name="btJimi" Content="Jimi bct suja" HorizontalAlignment="Left" Margin="68,204,0,0" VerticalAlignment="Top" Height="40" Width="100" Background="#FFE5C2F4" FontFamily="Arial Narrow" FontSize="18" Click="Button_Click" Grid.Row="2"/>
+
+
+    </Grid>
+</Window>
